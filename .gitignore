@@ -78,6 +78,11 @@ target/
 # Jupyter Notebook
 .ipynb_checkpoints
 
+# Ignore all .ipynb files except specific ones
+#*.ipynb
+#!mainproject.ipynb
+
+
 # IPython
 profile_default/
 ipython_config.py
